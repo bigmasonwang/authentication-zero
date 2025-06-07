@@ -1,6 +1,6 @@
 require "rails/generators/active_record"
 
-class AuthenticationGenerator < Rails::Generators::Base
+class AuthenticationZeroGenerator < Rails::Generators::Base
   include ActiveRecord::Generators::Migration
 
   class_option :api,           type: :boolean, desc: "Generates API authentication"

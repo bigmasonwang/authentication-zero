@@ -23,12 +23,12 @@ $ bundle add authentication-zero --version "~> 2"
 ## Usage
 
 ```
-$ rails generate authentication
+$ rails generate authentication_zero
 ```
 
 ## Developer responsibilities
 
-Since Authentication Zero generates this code into your application instead of building these modules into the gem itself, you now have complete freedom to modify the authentication system, so it works best with your use case. The one caveat with using a generated authentication system is it will not be updated after it's been generated. Therefore, as improvements are made to the output of `rails generate authentication`, it becomes your responsibility to determine if these changes need to be ported into your application. Security-related and other important improvements will be explicitly and clearly marked in the `CHANGELOG.md` file and upgrade notes.
+Since Authentication Zero generates this code into your application instead of building these modules into the gem itself, you now have complete freedom to modify the authentication system, so it works best with your use case. The one caveat with using a generated authentication system is it will not be updated after it's been generated. Therefore, as improvements are made to the output of `rails generate authentication_zero`, it becomes your responsibility to determine if these changes need to be ported into your application. Security-related and other important improvements will be explicitly and clearly marked in the `CHANGELOG.md` file and upgrade notes.
 
 ## Features
 
@@ -99,7 +99,6 @@ To release a new version, update the version number in `version.rb`, and then ru
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/lazaronixon/authentication-zero. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/lazaronixon/authentication-zero/blob/main/CODE_OF_CONDUCT.md).
-
 
 ## License
 

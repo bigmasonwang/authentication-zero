@@ -36,7 +36,7 @@ jobs:
           cp .rubocop.yml test-app/.rubocop.yml
           cd test-app
           bundle add authentication-zero --path ..
-          bin/rails generate authentication
+          bin/rails generate authentication_zero
           bundle install
           bin/rails db:migrate
 
@@ -79,7 +79,7 @@ jobs:
           cp .rubocop.yml test-app/.rubocop.yml
           cd test-app
           bundle add authentication-zero --path ..
-          bin/rails generate authentication --api
+          bin/rails generate authentication_zero --api
           bundle install
           bin/rails db:migrate
 
